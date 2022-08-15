@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "tailwind-config",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

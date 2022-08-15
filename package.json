@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "nasa_mars_rover_photos",
+  "version": "1.0.0",
+  "description": "SDJS-01 Interview Exercise",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "keywords": [],
+  "author": "Luis Solano",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-turbo": "^0.0.3",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "turbo": "latest"
+  }
+}
