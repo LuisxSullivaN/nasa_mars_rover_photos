@@ -24,4 +24,4 @@ cd nasa_mars_rover_photos
 pnpm install && pnpm run dev
 ```
 
-The frontend should be running at [](http://localhost:5173) and the backend at [](http://localhost:4000).
+The project should be running at `http://localhost:5173` (frontend) and at `http://localhost:4000` (backend).
