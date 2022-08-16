@@ -18,7 +18,10 @@ Clone the repo:
 git clone git@github.com:LuisxSullivaN/nasa_mars_rover_photos.git
 ```
 
-Run:
+Run the project:
 ```
-  pnpm install && pnpm run dev
+cd nasa_mars_rover_photos
+pnpm install && pnpm run dev
 ```
+
+The project should be running at [](http://localhost:5173) (frontend) and at [](http://localhost:4000) (backend).
