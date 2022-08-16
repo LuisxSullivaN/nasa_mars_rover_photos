@@ -2,6 +2,8 @@
 
 This is an example project required for the SDJS Course at Enroute.
 
+Note: I struggled a bit with the project set up and all the monorepo stuff as well as setting up the tests configs. That costed time so I decided to leave this project in this functional state.
+
 ## Stack
 
 * [Turborepo](https://turborepo.org/): Monorepo management and build tool. I already had used Nx in the past so I wanted to give turborepo a try.
